@@ -343,3 +343,16 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Bring a reproducible analytical failure,
 In Claude Code, `/chatdata:status` checks setup, `/chatdata:savings` shows cached workflow totals, and `/chatdata:resume <analysis folder>` picks up a local record after checking what changed. The footer distinguishes disconnected reporting, a missing time baseline, and cached estimates. Update notices still point to `/chatdata:update`.
 
 In Codex and Cursor, ask the loaded ChatData data-science skill to show local status or resume the analysis folder you specify. The shared `scripts/status.py` helper makes no network requests and never prints your installation token. Add `--check` to run the bundled synthetic checks. Savings are estimated time value, not savings on your AI bill. The dashboard starts at $125/hour; choose your usual time per workflow and adjust the hourly value if needed.
+
+## Related projects
+
+These four projects cover different parts of the work:
+
+| Project | What it adds |
+|---|---|
+| [Company Stack](https://github.com/parasdoshicom/zero-human-company-os) | Bounded business tasks, operating principles and completion checks |
+| [ChatData](https://github.com/parasdoshicom/getchatdata) | Open-source agentic analytics, runnable checks and reusable evidence |
+| [Your Voice](https://github.com/parasdoshicom/your-voice) | Drafting and editing that preserve meaning and the writer's voice |
+| [World-Class AI + Data Operator](https://github.com/parasdoshicom/ai-plus-data) | Public leadership playbooks, trusted metrics and operating models |
+
+[Explore the full project map](https://github.com/parasdoshicom). Each project is usable on its own. Installing a skill does not connect accounts or authorize publishing.

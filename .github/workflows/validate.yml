@@ -4,7 +4,9 @@ permissions:
   contents: read
 jobs:
   checks:
-    runs-on: ubuntu-latest
+    # Python 3.9 is still part of the supported plugin range but is not
+    # available on GitHub's Ubuntu 26.04 runner image.
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         python: ['3.9', '3.12', '3.13']

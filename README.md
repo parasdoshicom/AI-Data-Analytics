@@ -356,3 +356,7 @@ These four projects cover different parts of the work:
 | [World-Class AI + Data Operator](https://github.com/parasdoshicom/ai-plus-data) | Public leadership playbooks, trusted metrics and operating models |
 
 [Explore the full project map](https://github.com/parasdoshicom). Each project is usable on its own. Installing a skill does not connect accounts or authorize publishing.
+
+## Maven course companion
+
+[Open the two-day Agentic Analytics course](https://parasdoshicom.github.io/AI-Data-Analytics/course/) for the slides, synthetic datasets, before-and-after prompts, semantic-model change lab, eval suite and pilot review.

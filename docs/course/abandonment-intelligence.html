@@ -21,18 +21,18 @@
 </head>
 <body>
 <main>
-  <header><div><div class="eyebrow">Paras-built system · worked example</div><h1>Where are customers getting stuck?</h1><p>Abandonment Intelligence · ranked investigation and action layer · course practice data</p></div><div class="badge">OUTCOME: REVIEW</div></header>
+  <header><div><div class="eyebrow">Paras-built system · worked example</div><h1>Where are customers getting stuck?</h1><p>In this synthetic example, Growth needs to know which customers are getting stuck and what to check first.</p></div><div class="badge">OUTCOME: REVIEW</div></header>
 
-  <h2>Top three actions now</h2>
+  <h2>Where would you start?</h2>
   <section class="top-actions">
     <article class="action"><span class="number">1</span><h3>Inspect paid-search mobile traffic on the short landing page</h3><p>Its traffic mix grew while its conversion rate declined. It is the largest observed contributor, not a proven cause.</p><strong>Evidence: 71.43% of segment-rate underperformance</strong></article>
-    <article class="action"><span class="number">2</span><h3>Audit the v1-to-v2 tagging transition before changing routing</h3><p>The tag version changes between the two periods. Validate classification continuity with the metric owner.</p><strong>Gate: review required before action</strong></article>
+    <article class="action"><span class="number">2</span><h3>Audit the v1-to-v2 tagging transition before changing routing</h3><p>The tag version changes between the two periods. Ask the metric owner whether the same visit would receive the same tag in both weeks.</p><strong>Gate: review required before action</strong></article>
     <article class="action"><span class="number">3</span><h3>Add this segment and tag transition to the regression set</h3><p>Preserve the correction so the next run checks complete weeks, exclusions, benchmark tolerance, and context version.</p><strong>Owner: analytics system + metric owner</strong></article>
   </section>
 
   <section class="kpis"><div class="kpi"><div class="label">Current conversion</div><div class="value">6.9%</div><div class="sub">Eligible, complete week</div></div><div class="kpi"><div class="label">Movement</div><div class="value">−1.5pp</div><div class="sub">8.4% in prior week</div></div><div class="kpi"><div class="label">Rate underperformance</div><div class="value">140</div><div class="sub">Signups below prior segment rates</div></div><div class="kpi"><div class="label">Benchmark delta</div><div class="value">0.0pp</div><div class="sub">Independent tie-out passed</div></div></section>
 
-  <h2>Where the movement concentrates</h2>
+  <h2>Which customers saw the change?</h2>
   <section class="waterfall">
     <div class="step"><div class="step-name">Eligible sessions<span>10,000 current week</span></div><div class="track"><div class="fill" style="width:100%">100%</div></div></div>
     <div class="step"><div class="step-name">Expected signups<span>at prior segment rates</span></div><div class="track"><div class="fill" style="width:83%">830</div></div></div>
@@ -40,14 +40,14 @@
     <div class="leak">140-signup segment-rate gap · paid search contributes 100</div>
   </section>
 
-  <h2>Ranked investigation list</h2>
+  <h2>Who investigates each finding?</h2>
   <section class="table-wrap"><table><thead><tr><th>Finding</th><th>Affected population</th><th>Evidence</th><th>Next owner/action</th><th>State</th></tr></thead><tbody>
     <tr><td><strong>Paid-search short-page mix and rate moved together</strong></td><td>Mobile paid-search sessions</td><td>Traffic share rose; rate fell to 4.8%</td><td>Growth + metric owner: inspect tag continuity and page routing</td><td><span class="state review">REVIEW</span></td></tr>
     <tr><td><strong>Tag version changed inside the comparison</strong></td><td>Paid-search classification</td><td>v1 prior week; v2 current week</td><td>Analytics: reconcile mapping before a causal claim</td><td><span class="state review">REVIEW</span></td></tr>
     <tr><td><strong>Benchmark and calculation agree</strong></td><td>Weekly aggregate</td><td>0.0pp difference for both complete weeks</td><td>System: preserve as an automatic validation</td><td><span class="state ready">PASSED</span></td></tr>
   </tbody></table></section>
 
-  <section class="design"><div><div class="eyebrow" style="color:#ff9b73">How I designed it</div><h2>A rate is not a finding.</h2><p>The output had to move from a broad funnel observation to a specific, reviewable action. Each specialist investigated one breakpoint. The synthesis layer ranked only findings that could survive these six questions.</p></div><div class="rules"><div class="rule"><b>Population</b><span>Who or what is affected?</span></div><div class="rule"><b>Broken flow</b><span>Which rule, route, or step needs inspection?</span></div><div class="rule"><b>Durability</b><span>Is it persistent or a one-period fluctuation?</span></div><div class="rule"><b>Evidence</b><span>What source and validation support it?</span></div><div class="rule"><b>Ownership</b><span>Who investigates, approves, and closes it?</span></div><div class="rule"><b>Confidence</b><span>What can we say, and what remains unproven?</span></div></div></section>
+  <section class="design"><div><div class="eyebrow" style="color:#ff9b73">How I designed it</div><h2>What would an engineer investigate?</h2><p>Each analyst investigated one step in the funnel. Before passing a finding to engineering, the team had to name the people affected, the broken step and the evidence behind it. Try the six questions on your own finding.</p></div><div class="rules"><div class="rule"><b>Population</b><span>Who or what is affected?</span></div><div class="rule"><b>Broken flow</b><span>Which rule, route, or step needs inspection?</span></div><div class="rule"><b>Durability</b><span>Is it persistent or a one-period fluctuation?</span></div><div class="rule"><b>Evidence</b><span>What source and validation support it?</span></div><div class="rule"><b>Ownership</b><span>Who investigates, approves, and closes it?</span></div><div class="rule"><b>Confidence</b><span>What can we say, and what remains unproven?</span></div></div></section>
 
   <footer><span class="course-data">Included course dataset</span> · designed and built by Paras Doshi</footer>
 </main>

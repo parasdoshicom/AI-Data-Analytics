@@ -15,7 +15,7 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
-RELEASE_URL = "https://api.github.com/repos/parasdoshicom/getchatdata/releases/latest"
+RELEASE_URL = "https://api.github.com/repos/parasdoshicom/AI-Data-Analytics/releases/latest"
 CACHE_SECONDS = 24 * 60 * 60
 MAX_RESPONSE_BYTES = 64 * 1024
 NETWORK_TIMEOUT_SECONDS = 1.25

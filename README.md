@@ -6,7 +6,7 @@ Your open-source data science workspace, ready to install. ChatData brings toget
 
 ChatData code is MIT licensed and open source (the bundled Apache Ossie schema retains its Apache 2.0 license), with no trial, license key, or paid feature tier. The official ChatData workflow starts with a free personal account and requires its install to stay linked to that verified email. This gives you a usage dashboard showing how many explicit ChatData workflows ran and what they may have saved based on your own baseline and hourly value. Your AI client, model usage, warehouse, and other tools may still cost money.
 
-[Install](#install) · [Try it on synthetic data](#first-run-get-one-useful-answer) · [Explore all 16 capabilities](docs/capabilities.md) · [Privacy](docs/privacy.md) · [Source](https://github.com/parasdoshicom/getchatdata)
+[Install](#install) · [Try it on synthetic data](#first-run-get-one-useful-answer) · [Explore all 16 capabilities](docs/capabilities.md) · [Privacy](docs/privacy.md) · [Source](https://github.com/parasdoshicom/AI-Data-Analytics)
 
 ## How good answers carry forward
 
@@ -47,7 +47,7 @@ The goal is to make one data scientist more capable and harder to fool. We do no
 Run in your terminal:
 
 ```sh
-claude plugin marketplace add parasdoshicom/getchatdata
+claude plugin marketplace add parasdoshicom/AI-Data-Analytics
 claude plugin install chatdata@chatdata-free
 ```
 
@@ -68,7 +68,7 @@ If another installed ChatData package uses the same `/chatdata:` namespace, enab
 Run in your terminal:
 
 ```sh
-codex plugin marketplace add parasdoshicom/getchatdata --ref main
+codex plugin marketplace add parasdoshicom/AI-Data-Analytics --ref main
 codex plugin add chatdata@chatdata-free
 ```
 
@@ -81,8 +81,8 @@ If your Codex version does not offer plugin commands, the project-scoped install
 From the folder where you want to keep the public source:
 
 ```sh
-git clone https://github.com/parasdoshicom/getchatdata.git
-python3 getchatdata/scripts/install.py --client cursor --project /absolute/path/to/your-project
+git clone https://github.com/parasdoshicom/AI-Data-Analytics.git
+python3 AI-Data-Analytics/scripts/install.py --client cursor --project /absolute/path/to/your-project
 ```
 
 Replace the project path with your existing data project. Start a new Cursor agent chat in that project, select `/chatdata-data-science`, and use the first-run prompt below. The installer puts the skills and helpers in `.cursor/skills/chatdata-*`.
@@ -100,7 +100,7 @@ It should report five passing synthetic checks. That proves the local helper ins
 Clone the public repository, then run:
 
 ```sh
-python3 getchatdata/scripts/install.py --client codex --project /absolute/path/to/your-project
+python3 AI-Data-Analytics/scripts/install.py --client codex --project /absolute/path/to/your-project
 ```
 
 The installer writes the skills into `.agents/skills/chatdata-*`. It preserves unrelated skills and refuses to overwrite existing ChatData folders unless you pass `--update`.
@@ -351,7 +351,7 @@ These four projects cover different parts of the work:
 | Project | What it adds |
 |---|---|
 | [Company Stack](https://github.com/parasdoshicom/zero-human-company-os) | Bounded business tasks, operating principles and completion checks |
-| [ChatData](https://github.com/parasdoshicom/getchatdata) | Open-source agentic analytics, runnable checks and reusable evidence |
+| [ChatData](https://github.com/parasdoshicom/AI-Data-Analytics) | Open-source agentic analytics, runnable checks and reusable evidence |
 | [Your Voice](https://github.com/parasdoshicom/your-voice) | Drafting and editing that preserve meaning and the writer's voice |
 | [World-Class AI + Data Operator](https://github.com/parasdoshicom/ai-plus-data) | Public leadership playbooks, trusted metrics and operating models |
 

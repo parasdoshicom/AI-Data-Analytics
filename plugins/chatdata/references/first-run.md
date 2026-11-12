@@ -36,7 +36,7 @@ For a project with existing analysis work, use `/chatdata:onboard <project direc
 
 The first inventory is a map, not a completed semantic layer. The user must review the proposed metric definition, sources, checks, and caveats. Before answering a named metric as canonical, run the local context check for its exact name. A blocked check means stop that canonical answer, explain what is missing, stale, changed, or conflicting, and give the next action. Clearly labeled exploratory work and the bundled synthetic example remain available.
 
-For updates and setup errors, use the [public installation guide](https://github.com/parasdoshicom/getchatdata#install).
+For updates and setup errors, use the [public installation guide](https://github.com/parasdoshicom/AI-Data-Analytics#install).
 
 ## Quick checks without losing your place
 

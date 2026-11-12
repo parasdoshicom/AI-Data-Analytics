@@ -56,6 +56,12 @@ class UpdateTests(unittest.TestCase):
         self.assertIn("/chatdata:update", output["systemMessage"])
         self.assertEqual(U._cache_path().stat().st_mode & 0o777, 0o600)
 
+    def test_release_check_uses_canonical_repository(self):
+        self.assertEqual(
+            U.RELEASE_URL,
+            "https://api.github.com/repos/parasdoshicom/AI-Data-Analytics/releases/latest",
+        )
+
     def test_current_and_older_release_are_quiet(self):
         for latest in ("1.3.0", "1.2.9"):
             with self.subTest(latest=latest):
@@ -267,8 +273,11 @@ class UpdateTests(unittest.TestCase):
         self.assertIn("Claude Code only", command)
         self.assertIn("claude plugin marketplace list --json", command)
         self.assertIn("`source` is `github`", command)
-        self.assertIn("`repo` is exactly `parasdoshicom/getchatdata`", command)
+        self.assertIn("`repo` is exactly `parasdoshicom/AI-Data-Analytics`", command)
+        self.assertIn("legacy redirected value `parasdoshicom/getchatdata`", command)
         self.assertIn('git -C "<verified absolute installLocation>" remote get-url origin', command)
+        self.assertIn("`https://github.com/parasdoshicom/AI-Data-Analytics.git`", command)
+        self.assertIn("`git@github.com:parasdoshicom/getchatdata.git`", command)
         self.assertIn("If any matching entry has `managed` or another unrecognized scope, stop", command)
         self.assertIn("claude plugin marketplace update chatdata-free", command)
         self.assertIn("claude plugin update chatdata@chatdata-free --scope <scope>", command)

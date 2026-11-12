@@ -1,5 +1,10 @@
 # Changes
 
+## Unreleased
+
+- Updated Claude Code, Codex, Cursor, manifest, documentation, and release-check references to the canonical `parasdoshicom/AI-Data-Analytics` repository after the GitHub rename.
+- Kept the previous `parasdoshicom/getchatdata` source allowlisted only for existing Claude marketplace checkouts that GitHub redirects to the renamed repository.
+
 ## 1.7.2 — September 8, 2026
 
 - Kept rate decomposition separate from causal and rollback claims. When no design identifies an intervention's effect, the root-cause workflow now states that both the intervention and rollback effects are unknown instead of using reassuring segment movements as causal evidence.

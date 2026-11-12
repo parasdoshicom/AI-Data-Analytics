@@ -12,6 +12,14 @@ assert claude['name']==codex['name']=='chatdata'
 assert claude['version']==codex['version']==json.loads((plugin/'scripts/package-info.json').read_text())['version']
 assert marketplace['plugins'][0]['version']==claude['version']
 assert claude['license']==codex['license']=='MIT'
+repository='https://github.com/parasdoshicom/AI-Data-Analytics'
+assert claude['repository']==codex['repository']==repository
+readme=(root/'README.md').read_text()
+assert 'claude plugin marketplace add parasdoshicom/AI-Data-Analytics' in readme
+assert 'codex plugin marketplace add parasdoshicom/AI-Data-Analytics --ref main' in readme
+assert 'git clone https://github.com/parasdoshicom/AI-Data-Analytics.git' in readme
+assert 'python3 AI-Data-Analytics/scripts/install.py --client cursor' in readme
+assert 'python3 AI-Data-Analytics/scripts/install.py --client codex' in readme
 for file in root.rglob('*.json'):
     if '.git' not in file.parts: json.loads(file.read_text())
 skills=list((plugin/'skills').glob('*/SKILL.md'))

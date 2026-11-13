@@ -1,0 +1,11 @@
+R17 rollout review · Analyst brief · Synthetic exercise
+
+The engineering lead can leave the rollout running while investigating, disable the new importer behind its flag, or reverse the entire release. Your account extract covers two mature periods:
+
+                  Before R17             After R17
+Returning         640 / 800              170 / 200
+New                40 / 200              200 / 800
+
+These are activated / eligible accounts. The extract does not record flag assignment. Engineering's standing incident agreement is to disable the importer flag if an equal-size randomized canary has at least 100 valid imports per arm and the flagged timeout rate exceeds control by at least five percentage points. The whole release also contains unrelated changes.
+
+What should the lead do now? Save one action, its scope, and the evidence you still need. Give your signed call to the lead before receiving their card.

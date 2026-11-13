@@ -1,0 +1,7 @@
+R18 incident closure · Analyst brief · Synthetic exercise
+
+Import Engineering must decide whether to close the R17 iOS timeout ticket today. The original ticket concerns the signed-in onboarding import on production iOS. The team agreed to close only with at least 100 production attempts, at most 3% server failures and a passing reproduction on that same path.
+
+The R18 server log shows 2 failures in 100 production iOS attempts. The QA dashboard shows S103, labeled “production iOS / signed-in onboarding import”, PASS, against the original fixture. You may close the ticket or keep it open and request a specific test.
+
+Write your recommendation and which observations satisfied or failed the agreement. Give it to the incident owner before opening the QA card.

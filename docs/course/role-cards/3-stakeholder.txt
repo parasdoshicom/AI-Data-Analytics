@@ -1,0 +1,5 @@
+Saturday staffing · Support lead’s ticket audit · Synthetic exercise
+
+You checked all 11 week-two tickets marked “waiting for specialist” against their assignment histories. Six were in the general queue for the entire wait. A routing migration had copied a specialist tag onto those six tickets. The other five really did wait for a specialist. The one ticket originally marked generalist was correct. The service clock and the total of 12 late replies are unchanged.
+
+Tell the analyst what the assignment histories showed. Ask them to reconcile all 12 tickets, then give you a roster instruction before the spending deadline.

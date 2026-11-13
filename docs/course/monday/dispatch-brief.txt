@@ -1,4 +1,4 @@
-Monday exercise · synthetic dispatch log · as of the end of day 12
+Optional carrier exercise · synthetic dispatch log · as of the end of day 12
 
 Operations can keep tomorrow’s shipments on the current carrier or move them to the backup for one day. The backup costs $800 more. The service agreement triggers a switch below 85% on time. Exactly 85% meets the target. You have ten minutes to brief the operations lead.
 

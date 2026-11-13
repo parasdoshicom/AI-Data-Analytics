@@ -1,0 +1,7 @@
+Open after both calls · reviewer’s calculation
+
+Day 12 cut: exclude orders 113 and 114, whose promises are still open. Count the two identical scans for parcel N once. That leaves 14 distinct due parcels. Two were late, B and N. The warehouse rate is 12/14 = 85.71%. Using that definition, keep the current carrier.
+
+There are 12 distinct due orders. Order 101 missed because B was late and order 112 missed because N was late. Ten whole orders made the promise. 10/12 = 83.33%, below 85%. Move tomorrow's shipments to the backup for the approved $800. The contract owner reviews the next mature order group before extending the switch.
+
+A student who held the first call pending clarification also exercised sound judgment. Ask them for the conditional parcel-based recommendation and what made the final action permissible. If they say the backup is proven better, ask where this file records the backup’s performance.

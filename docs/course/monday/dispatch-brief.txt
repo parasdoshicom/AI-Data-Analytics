@@ -1,0 +1,9 @@
+Monday exercise · synthetic dispatch log · as of the end of day 12
+
+Operations can keep tomorrow’s shipments on the current carrier or move them to the backup for one day. The backup costs $800 more. The service agreement triggers a switch below 85% on time. Exactly 85% meets the target. You have ten minutes to brief the operations lead.
+
+The warehouse dashboard defines “on time” per parcel. Each row is a delivery scan. An identical scan can arrive twice. The export covers every parcel for the orders shown. Count only promises already due. A due parcel with no delivery by its promise would count as late.
+
+1. Work from dispatch.csv alone. Write down the unit, numerator, denominator, your provisional carrier choice and one question for the contract owner. Save the call before you open the owner’s receipt.
+2. Ask the owner what the customer was promised. Open dispatch-owner.txt. Use the same rows and deadline. Record exactly which orders, if any, changed your recommendation.
+3. Tell the dispatcher what to do tomorrow and what to check before reverting. Give a colleague your brief and the CSV. Can they reproduce both rates and explain the $800 decision?

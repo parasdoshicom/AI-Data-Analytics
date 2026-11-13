@@ -25,8 +25,8 @@
 
   <h2>Where would you start?</h2>
   <section class="top-actions">
-    <article class="action"><span class="number">1</span><h3>Inspect paid-search mobile traffic on the short landing page</h3><p>Its traffic mix grew while its conversion rate declined. It is the largest observed contributor, not a proven cause.</p><strong>Evidence: 71.43% of segment-rate underperformance</strong></article>
-    <article class="action"><span class="number">2</span><h3>Audit the v1-to-v2 tagging transition before changing routing</h3><p>The tag version changes between the two periods. Have Analytics apply both tag versions to the same visits. If classification explains the gap, fix the mapping and recalculate. If the gap persists, Growth should try the mobile route and send Engineering the first step it can reproduce.</p><strong>Gate: review required before action</strong></article>
+    <article class="action"><span class="number">1</span><h3>Inspect paid-search mobile traffic on the short landing page</h3><p>More visits came through this route, and a smaller share of them converted. That makes it a good place to start looking. What would you need to see before asking an engineer for a fix?</p><strong>Evidence: 71.43% of segment-rate underperformance</strong></article>
+    <article class="action"><span class="number">2</span><h3>Did the same visits get different tags?</h3><p>The tag version changes between the two periods. Have Analytics apply both tag versions to the same visits. If classification explains the gap, fix the mapping and recalculate. If the gap persists, Growth should try the mobile route and send Engineering the first step it can reproduce.</p><strong>Gate: review required before action</strong></article>
     <article class="action"><span class="number">3</span><h3>Add this segment and tag transition to the regression set</h3><p>After the metric owner signs off on the mapping, save these two weeks as a test case. On the next run, hold the report if the same visits change category unexpectedly.</p><strong>Owner: analytics system + metric owner</strong></article>
   </section>
 

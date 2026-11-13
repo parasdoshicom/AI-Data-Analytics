@@ -2,4 +2,4 @@ Sunday release meeting · Finance controller's reconciliation · Synthetic
 
 You own the independent control total. The 900 on the dashboard was yesterday's preliminary count. Your team has now signed the account-level reconciliation for the same after-period population. Twenty external account IDs occur twice in the source, once under each billing system after a migration. Each of those IDs has exactly one extra row. The final eligible count is 880 unique external accounts. All rows have audience labels, so the completeness check passed. Finance has not yet reconciled the activated numerator after deduplication.
 
-Show the analyst the signed count and explain why two calculations on the same extract both returned 900. Ask whether Growth can switch today, who must repair the model input, and which two counts you need to sign the release.
+Show the analyst the signed count. Ask, “Does Growth switch today? Who fixes the input, and which two numbers will you bring back to Finance?”

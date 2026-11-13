@@ -4,4 +4,4 @@ Import Engineering must decide whether to close the R17 iOS timeout ticket today
 
 The R18 server log shows 2 failures in 100 production iOS attempts. The QA dashboard shows S103, labeled “production iOS / signed-in onboarding import”, PASS, against the original fixture. You may close the ticket or keep it open and request a specific test.
 
-Write your recommendation and which observations satisfied or failed the agreement. Give it to the incident owner before opening the QA card.
+Would you close the ticket today? Tell the incident owner which parts of the agreement you checked. Save your answer before QA joins.

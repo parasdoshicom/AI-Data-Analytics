@@ -4,4 +4,4 @@ You own the feature flag. The analyst’s activation export does not include you
 
 At 09:40 the release service finished its preregistered import check. Eligible imports were randomly assigned to the new importer or the previous importer on the same build. Flag on: 24 timeouts in 200 valid imports. Flag off: 2 timeouts in 200. The source is the server completion log. You can switch off just the importer and monitor timeouts on subsequent imports.
 
-Ask which decision this evidence settles and which question about seven-day activation is still open.
+Ask the analyst, “What should I do with the flag? And what can I tell Growth about activation?”

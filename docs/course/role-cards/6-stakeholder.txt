@@ -1,5 +1,5 @@
-Thursday cutover meeting · Finance controller’s dry run · Synthetic
+Sunday release meeting · Finance controller's reconciliation · Synthetic
 
-You own the quarter-close workbook. The inventory describes its on-screen dashboard. The scheduled export that feeds your ledger uses a separate service account. You ran that actual export against a copy of the proposed catalog. Its query resolves the default alias at runtime. With the old alias it exported 680/1,000 for the before period. With the proposed alias it exported 600/900 for the same period. The ledger job has no explicit version pin.
+You own the independent control total. The 900 on the dashboard was yesterday's preliminary count. Your team has now signed the account-level reconciliation for the same after-period population. Twenty external account IDs occur twice in the source, once under each billing system after a migration. Each of those IDs has exactly one extra row. The final eligible count is 880 unique external accounts. All rows have audience labels, so the completeness check passed. Finance has not yet reconciled the activated numerator after deduplication.
 
-Show the analyst those two export results. Growth can select the named v2 metric without changing the shared alias. Ask which change you can authorize today and what proof would let Finance sign the other one.
+Show the analyst the signed count and explain why two calculations on the same extract both returned 900. Ask whether Growth can switch today, who must repair the model input, and which two counts you need to sign the release.

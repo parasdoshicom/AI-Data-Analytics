@@ -1,0 +1,7 @@
+Thursday cutover meeting · Analyst brief · Synthetic follow-up to the drift lab
+
+Growth wants the external-account definition in Monday’s headline. Identity Engineering has repaired all 100 unknown audience labels. The corrected extract has a matching receipt from four hours ago. Product Data signed the definition and reproduced both periods from the corrected file.
+
+Finance’s release condition is that its quarter-close report keep using the historical all-account definition. The migration inventory marks that report “pinned to v1.” The planned change promotes v2 to the default catalog alias on Sunday evening. A named v2 metric is also available for individual consumers to select explicitly.
+
+Do you authorize the planned default switch today? State which consumers can move, what Finance should see, and why. Save your call before inviting Finance to respond.

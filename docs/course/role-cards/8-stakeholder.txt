@@ -1,0 +1,7 @@
+Finance pilot meeting · Finance sponsor’s audit receipt · Synthetic
+
+You bring the signed review from Finance Controls. On Friday they randomly selected 20 distinct requests from the first planning team’s B2 shadow log, including requests without ratings. A reviewer who did not author the answers checked the source for every one. Nineteen were supported. One noncritical narrative answer lacked a supporting source and was returned for correction. The review covers weekly variance reports only.
+
+You have accepted pause authority for that team. Your name and acceptance date appear in the signed charter. The second team has supplied neither an audit nor an owner. Product Data’s passing critical-eval receipt names the same B2 build.
+
+Share the receipt and ownership commitment. Ask who may use B2 on Monday, for which work, and when the planner must fall back to human review.

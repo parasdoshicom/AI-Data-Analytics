@@ -1,5 +1,7 @@
 # ChatData
 
+**Taking the Maven activation course?** [Start with the course setup and student kit](https://parasdoshicom.github.io/AI-Data-Analytics/course/#setup). Open the unzipped student folder in Codex, Claude Code, or Cursor. Download each file when the lesson asks for it, or [get the whole course in one ZIP](https://parasdoshicom.github.io/AI-Data-Analytics/course/offline-course.zip).
+
 **Good AI answers don’t reset. Free forever.**
 
 Your open-source data science workspace, ready to install. ChatData brings together 16 analysis skills, runnable Python checks, synthetic examples, and reusable record templates for Claude Code, Codex, and Cursor. It helps one person frame a question, run the analysis, challenge the conclusion, and save the evidence locally for the next session.

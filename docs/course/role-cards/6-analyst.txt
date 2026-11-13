@@ -1,6 +1,6 @@
 Sunday release meeting · Analyst brief · Synthetic follow-up to the drift lab
 
-You decide when one report can switch: Growth's weekly external-account adoption report. Its approved change request switches that report from the historical all-account model to the named v2 external-account model. Finance's historical reports stay on v1. The metric counts each eligible external account once.
+You decide when one report can switch: Growth's weekly external-account activation report. Its approved change request switches that report from the historical all-account model to the named v2 external-account model. Finance's historical reports stay on v1. The metric counts each eligible external account once.
 
 The signed checklist requires complete audience labels, a current source receipt, reproducible counts, and reconciliation to Finance's control total of 900 unique eligible external accounts in the after period. Identity Engineering repaired all 100 unknown labels. The receipt is four hours old. The validated model returned 320 activated out of 900 eligible external accounts for that period. Product Data and Growth signed the definition and the hand calculation. The current Finance control dashboard shows 900.
 

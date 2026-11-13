@@ -1,0 +1,74 @@
+[
+  {
+    "hour": 1,
+    "title": "What should you build first?",
+    "lesson": "Agentic Analytics in Production: What to Build First",
+    "page": 3,
+    "url": "https://www.insightextractor.com/p/slides-and-recording-agentic-analytics",
+    "image": "1.webp",
+    "transcript": "Horizontal axis: rare to recurring. Vertical axis: an unchecked or changing answer to the same checked answer. For a rare question with unchecked answers, keep it exploratory. For a recurring question with unchecked answers, fix definitions and checks first. For a rare question with a checked answer, use AI when needed. For a recurring question with a checked answer, build here first. Larger circles mean greater business impact. Start with the largest circle in the top right."
+  },
+  {
+    "hour": 2,
+    "title": "The five-minute catch-and-fix audit",
+    "lesson": "Catch 7 AI Analysis Mistakes Before They Drive Decisions",
+    "page": 14,
+    "url": "https://www.insightextractor.com/p/maven-session-slide-deck-download",
+    "image": "2.webp",
+    "transcript": "For an analysis without an action, finish “If X, we will Y” and write the decision brief. For an unclear metric, expose the definition and inferred fields in a metric contract. For the wrong unit, compare COUNT(*) with COUNT(DISTINCT) and check duplicates at the intended grain. For mismatched periods, check maturity and completeness and rerun like for like. For a plausible table without lineage, check use, freshness and a tie-out against a trusted source. When a pattern becomes a cause, write down the evidence that would disprove it. If a polished answer has a trust gap, name the first failed check, choose a response and record when to reopen it. For a polished self-audit, open the execution evidence. The slide prioritizes the like-for-like and grain checks for a short audit and warns that skipping the causal check is costly."
+  },
+  {
+    "hour": 3,
+    "title": "Make the reviewed answer inheritable",
+    "lesson": "Build 3 AI Harnesses for Trustworthy Analytics",
+    "page": 11,
+    "url": "https://www.insightextractor.com/p/session-slide-and-recording-build",
+    "image": "3.webp",
+    "transcript": "Harness 3, proof. A receipt stores inputs, checks, review state and next action. Keep it in the repo so the next teammate or agent can recover the review after the chat ends. saved_path points to the work a subsequent run can reuse. reopen_if names a change, such as drift in tags or totals, that invalidates the saved path. Keep the evidence a second person needs to trust or reopen the decision. Private reasoning does not belong in the receipt."
+  },
+  {
+    "hour": 4,
+    "title": "Answer, clarify, review or refuse",
+    "lesson": "Agentic Analytics: What to Build First and How to Trust It",
+    "page": 14,
+    "url": "https://www.insightextractor.com/p/slides-agentic-analytics-what-to",
+    "image": "4.webp",
+    "transcript": "Answer when the evidence supports the conclusion. Clarify when the definition or period is missing. Review when sources conflict or the action is costly. Refuse when the request goes beyond the permission granted."
+  },
+  {
+    "hour": 5,
+    "title": "When someone finds a mistake",
+    "lesson": "Agentic Analytics: What to Build First and How to Trust It",
+    "page": 15,
+    "url": "https://www.insightextractor.com/p/slides-agentic-analytics-what-to",
+    "image": "5.webp",
+    "transcript": "First find the mistake. Have the owner review it. Update the shared instructions or test. Run it again in a new session. Keep one shared version, such as GitHub. Reopen the work if the source, definition or tracking changes."
+  },
+  {
+    "hour": 6,
+    "title": "Ask These Before You Ask for a Tool",
+    "lesson": "Assess Your AI Data and Analytics Capabilities",
+    "page": 10,
+    "url": "https://www.insightextractor.com/p/session-slide-and-recording-assess",
+    "image": "6.webp",
+    "transcript": "Governance: Who owns the definition? Who arbitrates conflict? Incentive: if speed gets rewarded and reuse does not, useful work vanishes. Accountability: a trusted answer needs a name attached. Norms: corrections flow back when people can report them without blame. Ask what leadership counts and whether its scoreboard rewards useful work that compounds across teams."
+  },
+  {
+    "hour": 7,
+    "title": "Repeating a wrong answer is still wrong",
+    "lesson": "Agentic Analytics: What to Build First and How to Trust It",
+    "page": 6,
+    "url": "https://www.insightextractor.com/p/slides-agentic-analytics-what-to",
+    "image": "7.webp",
+    "transcript": "Run the same question again on the same data and check whether the answer changes. Separately compare the answer with an analysis you have verified. Agreement across runs and correctness require two different checks."
+  },
+  {
+    "hour": 8,
+    "title": "A small pilot earns a recurring run",
+    "lesson": "Build an AI-Powered WBR: From Metrics to Decisions",
+    "page": 16,
+    "url": "https://www.insightextractor.com/p/build-an-ai-powered-wbr-from-metrics",
+    "image": "8.webp",
+    "transcript": "Track preparation time, review effort, numerical errors and decision follow-through. Start with one decision, one metric owner and one frozen weekly packet. Repeat the run on the same data, then test stale and incomplete inputs. Before scheduling, have the owner approve the brief and check that a fresh session can reuse a correction."
+  }
+]

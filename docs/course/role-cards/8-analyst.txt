@@ -1,6 +1,6 @@
 Finance pilot meeting · Analyst brief · Synthetic follow-up, one week later
 
-Finance wants one planning team to use the assistant for its weekly variance report. In shadow mode a human independently recreates every answer. In limited use the named planner can rely on a supported answer after checking its source. A second Finance team also wants access later.
+Finance wants one planning team to use the assistant to explain changes in its weekly all-account activation rate. Finance uses the historical definition preserved during the Growth cutover. In shadow mode a human independently recreates every answer. In limited use the named planner can rely on a supported answer after checking its source. A second Finance team also wants access later.
 
 The agreed entry criteria for each team are all critical evals passing on the current build, at least 18 supported answers in a fresh independent sample of 20 of that team's requests, and a Finance owner with pause authority. Product Data has verified the critical fixes on build B2. The only audit in your folder is the earlier onboarding sample with 14/20 supported. The owner field on the Finance application is blank.
 

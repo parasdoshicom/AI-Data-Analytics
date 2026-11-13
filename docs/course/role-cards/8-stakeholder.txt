@@ -1,6 +1,6 @@
 Finance pilot meeting · Finance sponsor’s audit receipt · Synthetic
 
-Finance Controls sent you its signed review. On Friday they randomly selected 20 distinct requests from the first planning team’s B2 shadow log, including requests without ratings. A reviewer who did not author the answers checked the source for every one. Nineteen were supported. One noncritical narrative answer lacked a supporting source and was returned for correction. The review covers weekly variance reports only.
+Finance Controls sent you its signed review. On Friday they randomly selected 20 distinct requests from the first planning team’s B2 shadow log, including requests without ratings. A reviewer who did not author the answers checked the source for every one. Nineteen were supported. One noncritical narrative answer lacked a supporting source and was returned for correction. The review covers weekly activation variance reports only.
 
 You signed the charter. You can pause access for that team. The second team has supplied neither an audit nor an owner. Product Data’s passing critical-eval receipt names the same B2 build.
 

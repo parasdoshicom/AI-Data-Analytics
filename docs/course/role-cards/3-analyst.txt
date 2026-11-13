@@ -1,8 +1,7 @@
-Saturday staffing · Analyst brief · Synthetic exercise
+Activation report · Growth editor’s request · Synthetic exercise
 
-The support lead is setting next Saturday's roster. Use the latest comparable week (week 2). Approve one additional specialist if at least eight late first replies genuinely waited for specialist help. Otherwise use the regular roster. The spending decision is due today.
+A colleague reproduced 370 activated accounts out of 1,000 eligible using activation_7d. They reported the period exactly as it appears in data/activation.csv: “after.” Growth’s editor wants to put this in front of the VP:
 
-Week 1: 12 late first replies. Logged wait reasons: 2 specialist, 10 generalist.
-Week 2: 12 late first replies. Logged wait reasons: 11 specialist, 1 generalist.
+“37% of accounts that became eligible September 14–20 completed their first intended action within seven days.”
 
-Tell Support how many specialists to schedule and which count made you choose. Write it down before the lead shows you the ticket histories.
+Our rule for a dated caption: the source owner must tie the exact extract to that eligibility window and confirm seven days of observation for every account. Your folder contains the CSV, approved model and workflow. Would you print this sentence today? Write the wording you would allow and the question you need answered. Save it before speaking to Product Data.

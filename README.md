@@ -360,3 +360,5 @@ These four projects cover different parts of the work:
 ## Maven course companion
 
 [Open the two-day Agentic Analytics course](https://parasdoshicom.github.io/AI-Data-Analytics/course/) for the slides, synthetic datasets, before-and-after prompts, semantic-model change lab, eval suite and pilot review.
+
+For class, we recommend downloading the student kit at setup and each additional file when the lesson asks for it. If you prefer one download, [get the whole course in one ZIP](https://parasdoshicom.github.io/AI-Data-Analytics/course/offline-course.zip). Unzip it and open `course/index.html`.
